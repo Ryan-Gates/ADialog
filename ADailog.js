@@ -25,7 +25,8 @@ var methods ={
 		if(options.url!==undefined)
 		{
 		$ADailog = $(this);
-		$ADailog.data('options',options);
+		$ADailog.data('options', options);
+
 			if(options.post !==  undefined)
 			{
 					$.ajax({
